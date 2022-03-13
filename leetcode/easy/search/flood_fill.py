@@ -25,11 +25,11 @@ def floodFill(image: list[list[int]], sr: int, sc: int, newColor: int) -> list[l
     return image
 
 
-image = [[1, 1, 1],
+board = [[1, 1, 1],
          [1, 1, 0],
          [1, 0, 1]]
 coordinate_1 = 1
 coordinate_2 = 1
 newColor = 2
 
-print(floodFill(image, coordinate_1, coordinate_2, newColor))
+print(floodFill(board, coordinate_1, coordinate_2, newColor))
