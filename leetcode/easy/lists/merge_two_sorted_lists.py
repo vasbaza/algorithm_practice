@@ -21,26 +21,6 @@ def mergeTwoLists(list1, list2):
     return root
 
 
-# node1_3 = ListNode(val=4)
-# node1_2 = ListNode(val=2, next_val=node1_3)
-# node1_1 = ListNode(val=1, next_val=node1_2)
-#
-# node2_3 = ListNode(val=4)
-# node2_2 = ListNode(val=3, next_val=node2_3)
-# node2_1 = ListNode(val=1, next_val=node2_2)
-
-# node1_3 = ListNode(val=4)
-# node1_2 = ListNode(val=2, next_val=node1_3)
-# node1_1 = ListNode(val=1, next_val=node1_2)
-#
-# node2_1 = ListNode(val=5)
-
-# node2_3 = ListNode(val=4)
-# node2_2 = ListNode(val=2, next_val=node2_3)
-# node2_1 = ListNode(val=1, next_val=node2_2)
-#
-# node1_1 = ListNode(val=5)
-
 node2_2 = ListNode(val=3)
 node2_1 = ListNode(val=-9, next=node2_2)
 
